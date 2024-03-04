@@ -16,7 +16,7 @@ function init () {
         event.target.style.backgroundColor = "";
      });
 
-     let response = window.confirm("Are you sure you want to abort the mission?");
+     let response = missionAbort.confirm("Are you sure you want to abort the mission?");
         if (response) {
          paragraph.innerHTML = 'Mission aborted! Space shuttle returning home.';
         }
